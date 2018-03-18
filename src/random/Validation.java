@@ -17,7 +17,7 @@ public class Validation {
 		int randomNumber = randomMaker.nextInt(5);
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
-		
+		//00
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
