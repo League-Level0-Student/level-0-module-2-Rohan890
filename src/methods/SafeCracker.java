@@ -19,7 +19,10 @@ public class SafeCracker {
 		 * combinations
 		 */
 
-
+Random safe = new Random();
+for(int i= 0;i<10000000;i++ ) {
+	tryCode(i);
+}
 	}
 
 	static void tryCode(int guess) {
